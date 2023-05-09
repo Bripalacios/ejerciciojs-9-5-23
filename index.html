@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Ejercicios JS</h1>
+    <script>
+      // const numbers = {
+      //   a: 1,
+      //   b: 2,
+      //   c: 3,
+      // };
+
+      // // for (const property in numbers) {
+      // //   console.log(`numero: ${numbers[property]}`);
+      // // }
+
+      // const letters = ["A", "B", "C"];
+
+      // for (const elemento of letters) {
+      //   console.log("letra: " + elemento);
+      // }
+
+      // let comida = `Taco`;
+
+      // console.log(comida.split(""))
+
+      // const saludar = (saludo) => {
+      //   if (saludo.length < 11) {
+      //     for (let i = 0; i <= saludo.length; i++) {
+      //       console.log(saludo[i]);
+      //     }
+      //   } else {
+      //     console.log("lo sentimos solo podemos imprimir 10 caracteres");
+      //   }
+      // };
+
+      // saludar("buenos");
+
+      // const animal = {
+      //   nombre: "snoopy",
+      //   sonar() {
+      //     console.log("hago sonidos porque estoy vivo");
+      //   },
+      // };
+
+      // const animal2 = {
+      //   nombre: "Lola Bunny",
+      //   sonar() {
+      //     console.log("hago sonidos porque estoy vivo");
+      //   },
+      // };
+
+      // console.log(animal);
+      // console.log(animal2);
+
+      //funcion constructora
+      // function Animal
+
+      //
+
+      // function vowelCounter(str) {
+      //   const vowels = "aeiou";
+      //   const strlower = str.toLowerCase();
+      //   let counter = 0;
+      //   for (let i = 0; i <= strlower.length; i++) {
+      //     if (vowels.includes(strlower[i])) {
+      //       counter++;
+      //     }
+      //   }
+      //   if (counter > 0)
+      //     return console.log(`tu cadena tiene ${counter} vocales`);
+      //   else return console.log("no tiene vocales");
+      // }
+
+      // vowelCounter("Brianda");
+
+      ////////////////////////////////////
+      function printletters(strLetter) {
+        const letterToValidate = "z";
+        const strLower = strLetter.toLowerCase();
+        for (let i = 0; i <= strLower.length; i++) {
+          console.log(strLower[i]);
+        }
+        console.log(`la longitud de tu cadena es de ${strLower.length}`);
+
+        if (strLower.includes(letterToValidate)) {
+          console.log(`la cadena contiene ${letterToValidate}`);
+        }
+      }
+
+      printletters("Zara");
+    </script>
+  </body>
+</html>
